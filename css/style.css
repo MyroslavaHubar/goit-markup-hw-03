@@ -213,7 +213,6 @@ img {
 .team-item {
   background: #fff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -228,6 +227,12 @@ img {
   margin-bottom: 72px;
 }
 
+.description {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -236,7 +241,6 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .team-text {
@@ -259,12 +263,6 @@ img {
   row-gap: 48px;
 }
 
-.container-description {
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  padding: 32px 16px;
-}
-
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11111;
@@ -273,6 +271,10 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+
+.about-img {
+  padding: 32px 0px;
 }
 
 .portfolio-subtitle {
