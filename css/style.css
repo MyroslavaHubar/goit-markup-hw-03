@@ -248,6 +248,21 @@ img {
 
 /*=========Section 3=========*/
 
+.section-portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11111;
@@ -255,6 +270,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-subtitle {
@@ -263,12 +279,17 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  margin-top: 32px;
+  padding: 0px 16px;
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 0px 16px;
+  margin-bottom: 32px;
 }
 
 /*==========Footer======*/
