@@ -295,6 +295,7 @@ img {
 /*==========Footer======*/
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -316,4 +317,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
+  max-width: 264px;
 }
